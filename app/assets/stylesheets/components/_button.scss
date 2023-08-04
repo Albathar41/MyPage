@@ -7,5 +7,12 @@
   color: white;
   font-family: "Ubuntu", "sans-serif";
   text-align: center;
-  
+  line-height: 2.9;
+  box-shadow: 0px 6px 14px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #bb3e2b;
+  color:white;
 }

@@ -4,7 +4,17 @@ body {
 
 .container {
   background: white;
+
+  @media (max-width: 596px) {
+
+  }
+
+  @media (min-width: 756px) {
+    display: flex;
+
+  }
+
   border-top: solid #ddd1c1;
-  padding: 0
-  ;
+
+
 }

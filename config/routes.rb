@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'work/index'
+  get 'work/show'
+  get 'work/about'
   root to: "pages#home"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

@@ -1,6 +1,9 @@
 .left {
   background-color: white;
   padding-left: 3rem;
+  #profil {
+    width: fit-content;
+  }
 
   @media (max-width: 596px){
 
@@ -73,4 +76,10 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+}
+
+.infos-left-black {
+  background: #262626;
+  color: white;
+  height: max-content;
 }

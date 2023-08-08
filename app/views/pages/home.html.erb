@@ -1,21 +1,23 @@
-<div class="left">
-  <h1>Hello! I am Maxime</h1>
-  <p>Web developer and ergonomist, I am mainly interested in the implementation and improvement of the architecture and logic that allows the different processes to be carried out successfully. </p>
-  <div class="infos-left">
-    <div class="inline-infos">
-      <div>
-        <%= link_to "My CV", "#", class:'btn button' %>
-        <h5><%= @projects.count %></h5>
-        <p>Project Done</p>
-      </div>
-      <div>
-        <%= link_to "Projects", "#" %>
-        <h5>Contact</h5>
-        <p>maxime.moreira@gmail.com</p>
+<div class="flex">
+  <div class="left">
+    <h1>Hello! I am Maxime</h1>
+    <p>Web developer and ergonomist, I am mainly interested in the implementation and improvement of the architecture and logic that allows the different processes to be carried out successfully. </p>
+    <div class="infos-left">
+      <div class="inline-infos">
+        <div>
+          <%= link_to "My CV", "#", class:'btn button' %>
+          <h5><%= @projects.count %></h5>
+          <p>Project Done</p>
+        </div>
+        <div>
+          <%= link_to "Projects", "#" %>
+          <h5>Contact</h5>
+          <p>maxime.moreira@gmail.com</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="right">
-
+  <div class="right">
+    <%= image_tag 'profil.png' %>
+  </div>
 </div>

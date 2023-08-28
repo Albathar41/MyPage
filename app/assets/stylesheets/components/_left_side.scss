@@ -92,5 +92,7 @@
 .infos-left-black {
   background: #262626;
   color: white;
+  box-sizing: content-box;
+  width: max-content;
   height: max-content;
 }

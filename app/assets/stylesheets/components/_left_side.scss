@@ -1,6 +1,16 @@
 .left {
   background-color: white;
   padding-left: 3rem;
+
+  a {
+    text-decoration: none;
+    color: #0F0000;
+  }
+
+  #project-link {
+    margin-top: 10px;
+  }
+
   #profil {
     width: 100%;
   }
@@ -76,6 +86,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+  margin-top: 20px;
 }
 
 .infos-left-black {

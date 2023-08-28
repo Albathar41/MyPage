@@ -4,4 +4,43 @@
   flex-grow: 1;
   border-top: solid #ddd1c1;
   display: flex;
+  position: relative;
+
+  #profil {
+    height: calc(100vh - 58px);
+    margin-inline: auto;
+  }
+
+}
+
+#css {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+}
+
+#ruby {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+
+#js {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+#html {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 70px;
+  left: 70px;
 }

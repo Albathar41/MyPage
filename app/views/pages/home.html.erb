@@ -1,8 +1,8 @@
 <div class="flex">
   <div class="left">
+    <div class="infos-left">
     <h1>Hello! I am Maxime</h1>
     <p>Web developer and ergonomist, I am mainly interested in the implementation and improvement of the architecture and logic that allows the different processes to be carried out successfully. </p>
-    <div class="infos-left">
       <div class="inline-infos">
         <div>
           <%= link_to "My CV", "#", class:'btn button' %>
@@ -17,12 +17,14 @@
       </div>
     </div>
     <div class="infos-left-black">
-      <h4>Actuality</h4>
+      <h5>Actuality</h5>
       <br>
-      <%= Date.today %>
+      <h5><%= Date.today %></h5>
       <p>Working on a new project for a concierge service</p>
     </div>
   </div>
+
+
   <div class="right">
     <%= image_tag 'CSS.png', id:"css" %>
     <%= image_tag 'html.png', id:"html" %>
@@ -31,5 +33,4 @@
     <%= image_tag 'ruby.png', id:"ruby" %>
     <%= image_tag 'rails.png', id:"rails" %>
   </div>
-
 </div>

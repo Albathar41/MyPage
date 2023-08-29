@@ -1,4 +1,5 @@
-.left {
+.infos-left {
+
   background-color: white;
   padding-left: 3rem;
 
@@ -15,30 +16,32 @@
     width: 100%;
   }
 
-  @media (max-width: 596px){
-
-    width: 100%;
-    h1 {
-      margin-top: 38px;
-      font-weight: bold;
-      font-size: 54px;
-      margin-bottom: 38px;
-      width: calc(100%/1.5);
-    }
-
-    h4 {
-      font-size: 20px;
-    }
-
-    p {
-      font-size: 14px;
-      margin-right: 1rem;
-    }
+  h5 {
+    font-size: 18px;
   }
 
-  @media (max-width: 756px){
+  // @media (max-width: 596px){
 
-    width: calc(100%) ;
+  //   width: 100%;
+  //   h1 {
+  //     margin-top: 38px;
+  //     font-weight: bold;
+  //     font-size: 54px;
+  //     margin-bottom: 38px;
+  //     width: calc(100%/1.5);
+  //   }
+
+  //   h4 {
+  //     font-size: 20px;
+  //   }
+
+  //   p {
+  //     font-size: 14px;
+  //     margin-right: 1rem;
+  //   }
+  // }
+
+  @media (max-width: 999px){
 
     h1 {
       margin-top: 2.5rem;
@@ -49,19 +52,22 @@
       font-size: 3rem;
     }
 
-    h4 {
-      font-size: 20px;
-    }
+
 
     p {
       font-size: 14px;
       margin-right: 75px;
     }
+
+    .infos-left-black {
+      width: 100vw;
+    }
   }
 
 
-  @media (min-width: 757px) {
-    width: calc(100%/2) ;
+  @media (min-width: 1000px) {
+
+    width: calc(100vw/2);
     h1 {
       margin-top: 38px;
       margin-right: 0;
@@ -71,13 +77,15 @@
       width: calc(100%/1.5);
     }
 
-    h4 {
-      font-size: 20px;
-    }
+
 
     p {
       font-size: 14px;
       margin-right: 1rem;
+    }
+
+    .infos-left-black {
+      width: calc(50vw);
     }
   }
 }
@@ -85,14 +93,25 @@
 .inline-infos {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   margin-bottom: 1rem;
   margin-top: 20px;
+
+  h5 {
+    margin-top: 3rem;
+  }
 }
 
 .infos-left-black {
   background: #262626;
   color: white;
-  box-sizing: content-box;
-  width: max-content;
-  height: max-content;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: ;
+
+  p {
+    font-size: 14px;
+    margin-right: 1rem;
+  }
+
 }

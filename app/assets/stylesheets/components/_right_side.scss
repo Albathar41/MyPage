@@ -1,54 +1,83 @@
-.right {
-  background: #ddd1c1;
-  height: calc(100vh - 56px);
-  flex-grow: 1;
-  border-top: solid #ddd1c1;
-  display: flex;
-  position: relative;
+@media (min-width: 1000px) {
+  .right {
+    background: #ddd1c1;
+    height: calc(100vh - 56px);
+    flex-grow: 1;
+    border-top: solid #ddd1c1;
+    display: flex;
+    position: relative;
 
-  #profil {
-    height: calc(100vh - 58px);
-    margin-inline: auto;
+    #profil {
+      height: calc(100vh - 58px);
+      margin-inline: auto;
+    }
+  }
+}
+  @media (max-width: 1000px) {
+    .right {
+      display: none;
+    }
+  }
+
+@media (max-width: 1200px) {
+  #css {
+    display: none;
+  }
+  #rails {
+    display: none;
+  }
+  #ruby {
+    display: none;
+  }
+  #js {
+    display: none;
+  }
+  #html {
+    display: none;
   }
 
 }
 
-#css {
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  top: 230px;
-  left: 20px;
-}
+@media (min-width: 1200px) {
 
-#ruby {
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  top: 50px;
-  left: 80px;
-}
+  #css {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    top: 230px;
+    left: 40px;
+  }
 
-#js {
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  top: 330px;
-  left: 460px;
-}
+  #ruby {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    top: 50px;
+    left: -450px;
+  }
 
-#html {
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  top: 540px;
-  left: 40px;
-}
+  #js {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    top: 330px;
+    left: 510px;
+  }
 
-#rails {
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  top: 120px;
-  left: 400px;
+  #html {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    top: 540px;
+    left: 30px;
+  }
+
+  #rails {
+    height: 2.5rem;
+    width: 2.5rem;
+    position: relative;
+    top: 120px;
+    left: -90px;
+  }
+
 }

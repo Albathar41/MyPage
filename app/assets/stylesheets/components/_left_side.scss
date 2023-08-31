@@ -1,3 +1,12 @@
+.body {
+  height: 100%;
+  min-height: 100%;
+}
+
+.left {
+  height: calc(100vh - 56px);
+}
+
 .infos-left {
 
   background-color: white;
@@ -61,6 +70,7 @@
 
     .infos-left-black {
       width: 100vw;
+      height: 100%;
     }
   }
 
@@ -86,6 +96,7 @@
 
     .infos-left-black {
       width: calc(50vw);
+      height: 100%;
     }
   }
 }
@@ -107,7 +118,9 @@
   color: white;
   padding-left: 3rem;
   padding-top: 1rem;
-  padding-bottom: ;
+
+
+
 
   p {
     font-size: 14px;
